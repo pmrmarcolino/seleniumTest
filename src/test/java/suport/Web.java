@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Web {
     public static WebDriver createChrome (){
-        System.setProperty("webdriver.gecko.driver","/home/tqi_llamounier/Desktop/driver/geckodriver");
+        System.setProperty("webdriver.gecko.driver","/driver/geckodriver");
         FirefoxDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get("https://www.magazineluiza.com.br/");
